@@ -112,4 +112,4 @@ const postData = () => {
 }
 
 snackbar.show("Systems online!");
-enterBtn.addEventListener("click", getData);
+enterBtn.addEventListener("click", postData);
