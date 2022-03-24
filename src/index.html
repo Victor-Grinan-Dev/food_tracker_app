@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+    <title>Food Tracker</title>
+</head>
+<body>
+    <h1>Food Tracker App</h1>
+    <section id="post">
+        
+        <div class="frame">
+            <h3>POST</h3>
+            <div id="labels">
+                <label for="newFood">Food:  </label>
+                <label for="protein">protein: </label>
+                <label for="carbs">carbs: </label>
+                <label for="fat">fat: </label>                   
+            </div>
+            <div id="inputs">
+               
+                <input type="text" id="newFood">
+                <input type="number" id="protein" min="0">
+                <input type="number" id="carbs" min="0">
+                <input type="number" id="fat" min="0">
+                
+            </div>
+            <div>
+                <input type="button" value="Enter" id="enter">
+                
+            </div>
+            
+            <button id="log">log tool</button>
+        </div>
+        
+        <canvas id="chart" width="300" height="300"></canvas>
+
+        <div id="cardFrame">
+
+        </div>
+</body>
+</html>
